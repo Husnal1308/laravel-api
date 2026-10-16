@@ -1,3 +1,3 @@
 Praktikum Pertemuan 1
 
-![Halaman Laravel](hasil1.png)
+![Halaman Laravel](Gambar/hasil1.png)
