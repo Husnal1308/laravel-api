@@ -10,8 +10,8 @@ Praktikum Pertemuan 3
 
 Latihan Mandiri & Tugas - Pertemuan 3
 
-![Halaman Laravel](Gambar/hasil5.png)
-![Halaman Laravel](Gambar/hasil6.png)
-![Halaman Laravel](Gambar/hasil7.png)
-![Halaman Laravel](Gambar/hasil8.png)
-![Halaman Laravel](Gambar/hasil9.png)
+1. ![Halaman Laravel](Gambar/hasil5.png)  
+3. ![Halaman Laravel](Gambar/hasil6.png)
+4. ![Halaman Laravel](Gambar/hasil7.png)
+5. ![Halaman Laravel](Gambar/hasil8.png)
+6. ![Halaman Laravel](Gambar/hasil9.png)
