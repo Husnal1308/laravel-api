@@ -4,9 +4,9 @@ Hasil Praktikum Pertemuan 2
 
 Hasil Praktikum Pertemuan 3
 
-![Halaman Laravel](Gambar/hasil2.png)
-![Halaman Laravel](Gambar/hasil3.png)
-![Halaman Laravel](Gambar/hasil4.png)
+1. ![Halaman Laravel](Gambar/hasil2.png)
+2. ![Halaman Laravel](Gambar/hasil3.png)
+3. ![Halaman Laravel](Gambar/hasil4.png)
 
 Hasil Latihan Mandiri & Tugas - Pertemuan 3
 
