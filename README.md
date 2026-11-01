@@ -15,3 +15,19 @@ Hasil Latihan Mandiri & Tugas - Pertemuan 3
 4. ![Halaman Laravel](Gambar/hasil7.png)
 5. ![Halaman Laravel](Gambar/hasil8.png)
 6. ![Halaman Laravel](Gambar/hasil9.png)
+
+Hasil Praktikum Pertemuan 4
+
+![Halaman Laravel](Gambar/hasil10.png)
+
+Hasil Latihan Mandiri & Tugas Pertemuan 4
+
+1. ![Halaman Laravel](Gambar/hasil11.png)
+2. ![Halaman Laravel](Gambar/hasil12.png)
+3. ![Halaman Laravel](Gambar/hasil13.png)
+4. ![Halaman Laravel](Gambar/hasil14.png)
+
+Hasil Praktikum Pertemuan 5
+
+1. ![Halaman Laravel](Gambar/hasil15.png)
+2. ![Halaman Laravel](Gambar/hasil16.png)
