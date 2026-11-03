@@ -11,10 +11,6 @@ Route::get('/user', function (Request $request) {
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\CategoryController;
 
-Route::get ('/products', [ProductsController::class, 'index']);
-Route::get ('/products/{id}', [ProductsController::class, 'show']);
-Route::post('/products', [ProductsController::class, 'store']);
-
 Route::resource('products', ProductsController::class);
 //Latihan Mandiri & Tugas pertemuan 4
 Route::resource('categories', CategoryController::class);
@@ -35,16 +31,16 @@ Route::get('/hello', function () {
 //     return 'Detail product #' . $id;
 // });
 
-Route::get('/products/{id}/edit', function ($id) {
-    return 'From edit produk #' . $id;
-})->name('products.edit');
+// Route::get('/products/{id}/edit', function ($id) {
+//     return 'From edit produk #' . $id;
+// })->name('products.edit');
 
-Route::get('/products', function () {
-    return response()->json([
-            ['id' => 1,'nama' => 'Kopi Arabika','harga' => 45000],
-            ['id' => 2,'nama' => 'Teh Hijau','harga' => 25000],
-    ]);
-});
+// Route::get('/products', function () {
+//     return response()->json([
+//             ['id' => 1,'nama' => 'Kopi Arabika','harga' => 45000],
+//             ['id' => 2,'nama' => 'Teh Hijau','harga' => 25000],
+//     ]);
+// });
 
 // Latihan Mandiri & Tugas pertemuan 3
 // Route/about

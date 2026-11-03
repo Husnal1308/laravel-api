@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class ProductsController extends Controller
@@ -11,10 +12,15 @@ class ProductsController extends Controller
      */
     public function index()
     {
-       return response()->json([
-            ['id' => 1,'nama' => 'Kopi Arabika','harga' => 45000],
-            ['id' => 2,'nama' => 'Teh Hijau','harga' => 25000],
-       ]);
+
+       $data = Product::all(); // "Product" bisa disorot dengan CTRL+spasi
+
+       return response()->json($data);
+
+//     return response()->json([
+//            ['id' => 1,'nama' => 'Kopi Arabika','harga' => 45000],
+//            ['id' => 2,'nama' => 'Teh Hijau','harga' => 25000],
+//     ]);
     }
 
     /**
@@ -30,6 +36,9 @@ class ProductsController extends Controller
      */
     public function store(Request $request)
     {
+        $data = Product::create($request->all());
+        return response()->json($data, 201);
+
          $nama = $request->input('nama');
          $harga = $request->harga;
          // Tambah field request
@@ -48,6 +57,8 @@ class ProductsController extends Controller
     public function show(string $id)
     {
         //return 'Detail product = ' . $id;
+        $data = Product::find($id);
+        return response()->json($data);
     }
 
     /**
