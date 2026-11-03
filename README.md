@@ -31,3 +31,8 @@ Hasil Praktikum Pertemuan 5
 
 1. ![Halaman Laravel](Gambar/hasil15.png)
 2. ![Halaman Laravel](Gambar/hasil16.png)
+
+Hasil Praktikum Pertemuan 6
+
+1. ![Halaman Laravel](Gambar/hasil17.png)
+2. ![Halaman Laravel](Gambar/hasil18.png)
