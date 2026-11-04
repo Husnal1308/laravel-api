@@ -34,5 +34,5 @@ Hasil Praktikum Pertemuan 5
 
 Hasil Praktikum Pertemuan 6
 
-1. ![Halaman Laravel](Gambar/hasil17.png)
-2. ![Halaman Laravel](Gambar/hasil18.png)
+1. POST -> ![Halaman Laravel](Gambar/hasil17.png)
+3. GET -> ![Halaman Laravel](Gambar/hasil18.png)
