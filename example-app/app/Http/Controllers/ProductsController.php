@@ -74,7 +74,9 @@ class ProductsController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $Products = Product::findOrFail($id);
+        $Products->update($request->all());
+        return response()->json($Products, 200);
     }
 
     /**
@@ -82,6 +84,8 @@ class ProductsController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $Products = Product::findOrFail($id);
+        $Products->delete();
+        return response()->json(null, 204);
     }
 }
