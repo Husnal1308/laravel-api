@@ -38,12 +38,15 @@ Hasil Praktikum Pertemuan 6
 2. GET -> ![Halaman Laravel](Gambar/hasil18.png)
 
 Tugas Praktikum Pertemuan 6 (Update dan Delete)
-1. Update
-   ![Halaman Laravel](Gambar/hasil19.png)
-3. Delete ->
+1. "Add" untuk pengujian
+2. Update
+3. Delete
+   -> Softdelete
+   -> Harddelete
+Hasil Praktikum Pertemuan 7 (Validasi Error)
+1. Validasi Error
    
-   Before Delete :
-   ![Halaman Laravel](Gambar/hasil20.png)
-   After Delete :
-   ![Halaman Laravel](Gambar/hasil21.png) -> karena products id 1 telah dihapus maka saat dipanggil data akan kosong.
+   -> Validasi Input
+   -> Validasi Update
+Hasil Praktikum Pertemuan 8
 
