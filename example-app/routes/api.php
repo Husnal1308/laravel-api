@@ -10,6 +10,10 @@ Route::get('/user', function (Request $request) {
 //use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Resources\ProductResource;
+use App\Models\Product;
+use App\Http\Requests\StoreProductRequest;
+use App\Http\Requests\UpdateProductRequest;
 
 Route::resource('products', ProductsController::class);
 //Latihan Mandiri & Tugas pertemuan 4
@@ -23,9 +27,18 @@ Route::get('/hello', function () {
     return ('Halo, Laravel!');
 });
 
-//Route::delete('/products/{id}', function () {});
-//Route::put('/products/{id}', function () {});
-//Route::post('/products', function () {});
+Route::put('/products/{id}', [\App\Http\Controllers\ProductsController::class, 'update']);
+Route::delete('/products/{id}', [\App\Http\Controllers\ProductsController::class, 'destroy']);
+Route::delete('/products/{id}/force', [\App\Http\Controllers\ProductsController::class, 'forceDelete']);
+Route::post('/products/{id}/restore', [\App\Http\Controllers\ProductsController::class, 'restore']);
+
+Route::post('/register', [\App\Http\Controllers\AuthController::class, 'register']);
+Route::post('/login', [\App\Http\Controllers\AuthController::class, 'login']);
+
+Route::middleware('auth:sanctum')->group(function () {
+    Route::post('/logout', [\App\Http\Controllers\AuthController::class, 'logout']);
+    Route::get('/me', fn (Request $r) => $r->user());
+});
 
 // Route::get('/products/{id}', function ($id) {
 //     return 'Detail product #' . $id;
