@@ -45,6 +45,7 @@ Tugas Praktikum Pertemuan 6 (Update dan Delete)
 5. Delete
    
    --> Softdelete
+   
    ![Halaman Laravel](Gambar/softdelete.png)
    
    --> Harddelete
