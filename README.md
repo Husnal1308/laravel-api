@@ -35,4 +35,25 @@ Hasil Praktikum Pertemuan 5
 Hasil Praktikum Pertemuan 6
 
 1. POST -> ![Halaman Laravel](Gambar/hasil17.png)
-3. GET -> ![Halaman Laravel](Gambar/hasil18.png)
+2. GET -> ![Halaman Laravel](Gambar/hasil18.png)
+
+Tugas Praktikum Pertemuan 6 (Update dan Delete)
+1. "Add" untuk pengujian
+2. Update
+3. Delete
+   -> Softdelete
+   -> Harddelete
+Hasil Praktikum Pertemuan 7 (Validasi Error)
+1. Validasi Error
+   -> Validasi Input
+   -> Validasi Update
+Hasil Praktikum Pertemuan 8 (Relasi dan Autentika API)
+1. Relasi
+   -> Relasi GET
+   -> Relasi POST
+   a. POST 1
+   b. POST 2
+3. Autentika API
+   -> Register
+   -> Login
+
