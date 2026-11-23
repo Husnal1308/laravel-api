@@ -73,3 +73,7 @@ Route::get('/products/{id}', function ($id) {
 
     return response()->json($product) ;
 });
+
+// ===== ROUTE UTS: CRUD Produk (Blade) =====
+Route::resource('produk', \App\Http\Controllers\ProductWebController::class)->except(['show']);
+Route::get('/kategori', [\App\Http\Controllers\CategoryWebController::class, 'index'])->name('kategori.index');
