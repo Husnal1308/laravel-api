@@ -1,3 +1,4 @@
+## HASIL PRAKTIKUM 
 Hasil Praktikum Pertemuan 2
 
 ![Halaman Laravel](Gambar/hasil1.png)
@@ -80,3 +81,16 @@ Hasil Praktikum Pertemuan 8 (Relasi dan Autentika API)
    
    ![Halaman Laravel](Gambar/login.png)
 
+===========================================================================
+## Ujian Tengah Semester 5
+Hasil Tampilan Program UTS
+1. Daftar Produk ---> dapat Menampilkan, Menambah, Mengubah, Menghapus dan Mencari (tambahan).
+   
+   ![Halaman Laravel](Gambar/daftarproduk.png)
+   
+3. Daftar Kategori ---> Memverifikasi bahwa relasi berhasil ---> berisi kolom pencarian (tambahan)
+   
+   ![Halaman Laravel](Gambar/daftarkategori.png)
+   
+===========================================================================
+   
