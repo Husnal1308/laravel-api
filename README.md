@@ -39,21 +39,44 @@ Hasil Praktikum Pertemuan 6
 
 Tugas Praktikum Pertemuan 6 (Update dan Delete)
 1. "Add" untuk pengujian
-2. Update
-3. Delete
-   -> Softdelete
-   -> Harddelete
+   ![Halaman Laravel](Gambar/add.png)
+3. Update
+   ![Halaman Laravel](Gambar/update.png)
+5. Delete
+   
+   --> Softdelete
+   
+   ![Halaman Laravel](Gambar/softdelete.png)
+   
+   --> Harddelete
+   ![Halaman Laravel](Gambar/harddelete.png)
+   
 Hasil Praktikum Pertemuan 7 (Validasi Error)
 1. Validasi Error
-   -> Validasi Input
-   -> Validasi Update
+   ![Halaman Laravel](Gambar/validasierror.png)
+   ---> Validasi Input
+   ![Halaman Laravel](Gambar/validasiinput.png)
+   ---> Validasi Update
+   ![Halaman Laravel](Gambar/validasiupdate.png)
+   
 Hasil Praktikum Pertemuan 8 (Relasi dan Autentika API)
 1. Relasi
-   -> Relasi GET
-   -> Relasi POST
-   a. POST 1
-   b. POST 2
+   
+   --> Relasi GET
+   ![Halaman Laravel](Gambar/relasiGET.png)
+   --> Relasi POST
+   
+      ---> POST 1
+   ![Halaman Laravel](Gambar/relasiPOST1.png)
+   
+      ---> POST 2
+   ![Halaman Laravel](Gambar/relasiPOST2.png)
 3. Autentika API
-   -> Register
-   -> Login
+   
+   --> Register
+   
+   ![Halaman Laravel](Gambar/register.png)
+   --> Login
+   
+   ![Halaman Laravel](Gambar/login.png)
 
