@@ -81,7 +81,7 @@ Hasil Praktikum Pertemuan 8 (Relasi dan Autentika API)
    
    ![Halaman Laravel](Gambar/login.png)
 
-===========================================================================
+=============================================================================
 ## Ujian Tengah Semester 5
 Hasil Tampilan Program UTS
 1. Daftar Produk ---> dapat Menampilkan, Menambah, Mengubah, Menghapus dan Mencari (tambahan).
@@ -92,5 +92,5 @@ Hasil Tampilan Program UTS
    
    ![Halaman Laravel](Gambar/daftarkategori.png)
    
-===========================================================================
+=============================================================================
    
